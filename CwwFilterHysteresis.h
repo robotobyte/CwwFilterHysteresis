@@ -2,7 +2,7 @@
 //
 // Hysteresis Filter
 // -----------------
-// Code by W. Witt; V1.00-beta-01; June 2016
+// Code by W. Witt; V1.00-beta-02; July 2016
 //
 // This code defines a configurable hysteresis filter.
 //
@@ -95,6 +95,8 @@ class CwwFilterHysteresis {
 
     CWW_FH_POINT_TYPE lastMappedValue ();
     uint8_t           lastMappedZone  ();
+
+    uint8_t zoneCount ();
 
   private:
 
