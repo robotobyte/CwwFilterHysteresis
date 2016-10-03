@@ -2,7 +2,7 @@
 //
 // Hysteresis Filter
 // -----------------
-// Code by W. Witt; V1.00-beta-02; July 2016
+// Code by W. Witt; V1.00-beta-03; September 2016
 //
 // This code defines a configurable hysteresis filter.
 //
