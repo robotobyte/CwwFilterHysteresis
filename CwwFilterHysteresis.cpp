@@ -4,7 +4,7 @@
 // -----------------
 // Code by W. Witt; V1.00-beta-02; July 2016
 //
-// This code implemented a configurable hysteresis filter.
+// This code implements a configurable hysteresis filter.
 //
 // ****************************************************************************
 

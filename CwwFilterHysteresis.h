@@ -7,7 +7,7 @@
 // This code defines a configurable hysteresis filter.
 //
 // Each filter instance may be configured with a different number of
-// thresholds, but the threshold count must be at least one. n thresholds
+// thresholds, but the threshold count must be at least 1. n thresholds
 // create m=n+1 zones, and the filter then compares input values to
 // thresholds and accordingly maps each input value to a zone.
 //
@@ -41,7 +41,7 @@
 //           decreasing input values are checked against low thresholds
 //           from zone m to m-1, the low threshold must be crossed
 //
-//       center thresholds are used for during initialization
+//       center thresholds are used during initialization
 //
 // *****************************************************************************
 
